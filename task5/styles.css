@@ -1,0 +1,24 @@
+body {
+    background-color: #f1f1f1;
+    color: #636b6f;
+    padding: 0, 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+button {
+    display: inline-block;
+	padding: 1px;
+	margin: 0 15px 15px 0;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	height: 46px;
+	font-size: 14px;
+	font-weight: 550;
+	color: #636b6f;
+	background-color: rgb(81, 201, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
