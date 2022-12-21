@@ -8,11 +8,17 @@ function switchText(event) {
     textOut.textContent = event.target.value;
 }
 
-inConsole.addEventListener('click', textInConsole);
-
-function textInConsole() {
-
-    console.log(textOut.textContent);
+inConsole.addEventListener('click', (event) => {
+    console.log(event);
     textIpnut.value = "";
-}
+});
+
+
+
+// function textInConsole() {
+//     console.log(textOut.textContent);
+//     textIpnut.value = "";
+// }
+
+
 
